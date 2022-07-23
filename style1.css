@@ -1,0 +1,112 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  body{
+      margin: 0;
+      padding: 0;
+      background-size: cover;
+      background-image: url("bg5.jpg");
+      background-position: center;
+      font-family: sans-serif;
+  }
+
+.loginbox{
+      width: 320px;
+      height: 420px;
+      background: ghostwhite;
+      color: #000;
+      top: 50%;
+      left: 50%;
+      position: absolute;
+      transform: translate(-50%,-50%);
+      box-sizing: border-box;
+      border-radius: 20px;
+      padding: 70px 30px;
+}
+.loginbox{
+      box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+h1{
+      margin: 0;
+      padding: 0 0 20px;
+      text-align: center;
+      font-size: 22px;
+
+}
+.loginbox p{
+      margin: 0;
+      padding: 0;
+      font-weight: bold;
+}
+
+.loginbox input{
+      width: 100%;
+      margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+      border: none;
+      background: transparent;
+      border-bottom: 1px solid #000;
+      outline: none;
+      height: 40px;
+      color: #000;
+      font-size: 16px;
+}
+
+.loginbox input[type="submit"]
+{
+      border: none;
+      outline: none;
+      height: 40px;
+      background: #fb2525;
+      color: #fff;
+      font-size: 18px;
+      font-family: verdana, sens serif;
+      border-radius: 20px;
+
+}
+.loginbox input[type="submit"]:hover{
+      cursor: pointer;
+      background: #ffc107;
+      color: #000;
+}
+.loginbox a{
+       text-decoration: none;
+       font-size: 12px;
+       line-height: 20px;
+       color: darkgrey;
+}
+.loginbox h6{
+      text-decoration: none;
+      font-size: 12px;
+      line-height: 20px;
+      color: darkgrey;
+}
+.loginbox a:hover{
+      color: #FF4500;
+}
+
+.header{
+      overflow: hidden;
+      background-color: #f1f1f1;
+      padding: 20 px 10px;
+}
+.header p{
+      float: left;
+      color: black;
+      text-align: center;
+      text-decoration: none;
+      padding: 15px;
+      font-size: 18px;
+      font-family: sans-serif;
+      line-height: 25px;
+      border-radius: 10px;
+      font-weight: bold;
+}
+
